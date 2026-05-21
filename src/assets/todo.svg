@@ -1,0 +1,31 @@
+
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="400" rx="30" fill="#F4F7FF"/>
+
+  <!-- Main Card -->
+  <rect x="70" y="50" width="260" height="300" rx="20" fill="white" stroke="#D6E0FF" stroke-width="3"/>
+
+  <!-- Header -->
+  <text x="110" y="95" font-size="28" font-family="Arial" fill="#333" font-weight="bold">
+    My Tasks
+  </text>
+
+  <!-- Task 1 -->
+  <circle cx="105" cy="140" r="12" fill="#4F46E5"/>
+  <path d="M100 140L104 144L112 136" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="130" y="132" width="140" height="10" rx="5" fill="#C7D2FE"/>
+
+  <!-- Task 2 -->
+  <circle cx="105" cy="190" r="12" stroke="#4F46E5" stroke-width="3" fill="white"/>
+  <rect x="130" y="182" width="120" height="10" rx="5" fill="#D1D5DB"/>
+
+  <!-- Task 3 -->
+  <circle cx="105" cy="240" r="12" stroke="#4F46E5" stroke-width="3" fill="white"/>
+  <rect x="130" y="232" width="160" height="10" rx="5" fill="#D1D5DB"/>
+
+  <!-- Add Button -->
+  <circle cx="290" cy="310" r="28" fill="#4F46E5"/>
+  <path d="M290 297V323" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M277 310H303" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>

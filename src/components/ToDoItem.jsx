@@ -25,7 +25,7 @@ const   ToDoItem = ({text,completed,id,editTodo,deleteTodo,toggleCompleted}) => 
         </>
       ):(
         <div className='border border-black w-[95%] mx-auto flex justify-between px-5 py-3 rounded-lg'>
-        <p>{text}</p>
+        <p className={`${completed ? "line-through text-gray-400" : ""}`}>{text}</p>
         <div className='flex gap-3.5'>
             <input className='w-4' type="checkbox" checked={completed} onChange={()=>toggleCompleted(id)} />
             <FaEdit className='size-5 cursor-pointer' onClick={()=>{setEdited(true)}}/>   
